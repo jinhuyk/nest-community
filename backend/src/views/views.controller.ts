@@ -6,6 +6,5 @@ export class ViewController {
   @Render('view.ejs')
   async view() {
     return { name: 'Jinhyuk', age: 21, job: 'full?stack'};
-
   }
 }
